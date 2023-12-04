@@ -1,4 +1,4 @@
-Deep Learning Project Chronic Kidney Classification
+**Deep Learning Project Chronic Kidney Classification**
 
 Project flow
 1.	Project templet creation
@@ -19,10 +19,14 @@ Build deep learning base Image classification model which able to classify, CT s
 Dataset:
 I am using dataset of Kidney CT Scan image, which is identified and classified as kidney with tumour and Normal kidney with respective to image.
 For example:
+
+**Normal kidney**
+
+ ![Normal- (709)](https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification/assets/85306409/df0eb302-b340-4373-8770-c0b56d4c9e55)
+
+ **Tumour Kidney**
  
-Normal kidney
- 
-Tumour Kidney
+![Tumor- (811)](https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification/assets/85306409/1b793724-0ae2-467d-9575-a73d56f14423)
 
 Download Database: 
 https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=sharing
