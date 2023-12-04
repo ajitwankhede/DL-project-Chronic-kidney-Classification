@@ -31,6 +31,10 @@ For example:
 Download Database: 
 https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=sharing
 
+Or
+Full volume Dataset: https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone
+
+
 
 ## Workflows
 
