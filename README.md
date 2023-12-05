@@ -104,22 +104,19 @@ Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI= <Add dagshub URL>
+c <Add dagshub URL>
 
 export MLFLOW_TRACKING_USERNAME= <Add User name>
 
 export MLFLOW_TRACKING_PASSWORD= <Add Password>
 
 ```
-Run this to export as env variables: (For Windows User)
+
 
 ```bash
 
-set MLFLOW_TRACKING_URI= <Add dagshub URL>
-
-set MLFLOW_TRACKING_USERNAME= <Add User name>
-
-set MLFLOW_TRACKING_PASSWORD= <Add Password>
+"export" not work !!!
+Use Git bash terminal in VS code insted powershell or CMD
 
 ```
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ajitw/Github_Upload/DL-project-Chronic-kidney-Classification/mlruns/0/a0a5288590d941f394a7629d7961e640/artifacts
+end_time: 1701780039342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0a5288590d941f394a7629d7961e640
+run_name: grandiose-skunk-859
+run_uuid: a0a5288590d941f394a7629d7961e640
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701780029417
+status: 3
+tags: []
+user_id: ajitw
