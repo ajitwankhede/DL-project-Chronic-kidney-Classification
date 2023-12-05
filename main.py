@@ -3,7 +3,7 @@ from Chronic_Kidney_cnnClassifier.pipeline.stage_01_data_ingestion import DataIn
 from Chronic_Kidney_cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from Chronic_Kidney_cnnClassifier.pipeline.stage_03_model_training import ModelTrainingPipeline
 from Chronic_Kidney_cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
-
+import os
 
 
 
@@ -47,6 +47,11 @@ except Exception as e:
 
 STAGE_NAME = "Evaluation stage"
 try:
+  
+   # Connect Daghub and ML-Flow
+   os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/ajitwankhede/DL-project-Chronic-kidney-Classification.mlflow"
+   os.environ["MLFLOW_TRACKING_USERNAME"]="ajitwankhede"
+   os.environ["MLFLOW_TRACKING_PASSWORD"]="33e83bd2be316292f3af2c91ec4e72cf81f9be02"
    logger.info(f"*******************")
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
    model_evalution = EvaluationPipeline()
