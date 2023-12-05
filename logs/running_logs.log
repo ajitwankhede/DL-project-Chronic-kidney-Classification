@@ -767,3 +767,126 @@ x==========x]
 [2023-12-05 22:32:57,627: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-12-05 22:56:45,695: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 22:56:45,713: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:56:45,722: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:56:45,734: INFO: common: created directory at: artifacts]
+[2023-12-05 22:56:45,737: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 22:56:45,745: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-05 22:57:00,976: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-05 22:57:01,616: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 22:57:01,616: INFO: main: *******************]
+[2023-12-05 22:57:01,617: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 22:57:01,620: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:57:01,622: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:57:01,623: INFO: common: created directory at: artifacts]
+[2023-12-05 22:57:01,624: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 22:57:02,103: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 22:57:02,376: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 22:57:02,377: INFO: main: *******************]
+[2023-12-05 22:57:02,377: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 22:57:02,380: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:57:02,381: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:57:02,382: INFO: common: created directory at: artifacts]
+[2023-12-05 22:57:02,383: INFO: common: created directory at: artifacts\training]
+[2023-12-05 22:57:48,530: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 22:57:48,531: INFO: main: *******************]
+[2023-12-05 22:57:48,531: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 22:57:48,533: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:57:48,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:57:48,536: INFO: common: created directory at: artifacts]
+[2023-12-05 22:58:03,409: INFO: common: json file saved at: scores.json]
+[2023-12-05 22:58:03,411: INFO: common: json file saved at: scores.json]
+[2023-12-05 22:58:06,789: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 22:58:07,464: INFO: builder_impl: Assets written to: C:\Users\ajitw\AppData\Local\Temp\tmp5140ydst\model\data\model\assets]
+[2023-12-05 22:58:38,684: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 23:00:38,854: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 23:00:38,864: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 23:00:38,899: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 23:00:38,900: INFO: common: created directory at: artifacts]
+[2023-12-05 23:00:38,901: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 23:00:38,909: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-05 23:00:53,760: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-05 23:00:54,471: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 23:00:54,472: INFO: main: *******************]
+[2023-12-05 23:00:54,472: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 23:00:54,474: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 23:00:54,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 23:00:54,479: INFO: common: created directory at: artifacts]
+[2023-12-05 23:00:54,480: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 23:00:55,015: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 23:00:55,428: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 23:00:55,430: INFO: main: *******************]
+[2023-12-05 23:00:55,431: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 23:00:55,433: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 23:00:55,435: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 23:00:55,436: INFO: common: created directory at: artifacts]
+[2023-12-05 23:00:55,436: INFO: common: created directory at: artifacts\training]
+[2023-12-05 23:02:47,575: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 23:02:47,576: INFO: main: *******************]
+[2023-12-05 23:02:47,576: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 23:02:47,578: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 23:02:47,580: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 23:02:47,581: INFO: common: created directory at: artifacts]
+[2023-12-05 23:03:02,585: INFO: common: json file saved at: scores.json]
+[2023-12-05 23:03:02,585: INFO: common: json file saved at: scores.json]
+[2023-12-05 23:03:05,834: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 23:03:06,401: INFO: builder_impl: Assets written to: C:\Users\ajitw\AppData\Local\Temp\tmp5yr99ol9\model\data\model\assets]
+[2023-12-05 23:03:41,030: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 23:04:08,525: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 23:04:08,527: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 23:04:08,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 23:04:08,535: INFO: common: created directory at: artifacts]
+[2023-12-05 23:04:08,537: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 23:04:08,537: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-05 23:04:23,032: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-05 23:04:23,538: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 23:04:23,538: INFO: main: *******************]
+[2023-12-05 23:04:23,539: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 23:04:23,541: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 23:04:23,543: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 23:04:23,543: INFO: common: created directory at: artifacts]
+[2023-12-05 23:04:23,544: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 23:04:24,012: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 23:04:24,303: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 23:04:24,304: INFO: main: *******************]
+[2023-12-05 23:04:24,304: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 23:04:24,307: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 23:04:24,309: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 23:04:24,310: INFO: common: created directory at: artifacts]
+[2023-12-05 23:04:24,311: INFO: common: created directory at: artifacts\training]
+[2023-12-05 23:06:43,621: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 23:06:43,622: INFO: main: *******************]
+[2023-12-05 23:06:43,622: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 23:06:43,624: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 23:06:43,627: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 23:06:43,627: INFO: common: created directory at: artifacts]
+[2023-12-05 23:06:58,943: INFO: common: json file saved at: scores.json]
+[2023-12-05 23:06:58,944: INFO: common: json file saved at: scores.json]
+[2023-12-05 23:07:02,207: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 23:07:02,860: INFO: builder_impl: Assets written to: C:\Users\ajitw\AppData\Local\Temp\tmp69a_ug7s\model\data\model\assets]
+[2023-12-05 23:07:36,062: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
