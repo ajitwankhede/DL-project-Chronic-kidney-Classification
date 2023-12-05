@@ -1,0 +1,55 @@
+stages:
+  data_ingestion:
+    cmd: python C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\src\Chronic_Kidney_cnnClassifier\pipeline\stage_01_data_ingestion.py
+        
+    deps:
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\src\Chronic_Kidney_cnnClassifier\pipeline\stage_01_data_ingestion.py
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\config\config.yaml
+    outs:
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\artifacts\data_ingestion\kidney-ct-scan-image
+
+
+  prepare_base_model:
+    cmd: python C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\src\Chronic_Kidney_cnnClassifier\pipeline\stage_02_prepare_base_model.py
+    deps:
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\src\Chronic_Kidney_cnnClassifier\pipeline\stage_02_prepare_base_model.py
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\config\config.yaml
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - CLASSES
+      - WEIGHTS
+      - LEARNING_RATE
+    outs:
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\artifacts\prepare_base_model
+
+
+  training:
+    cmd: python C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\src\Chronic_Kidney_cnnClassifier\pipeline\stage_03_model_training.py
+    deps:
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\src\Chronic_Kidney_cnnClassifier\pipeline\stage_03_model_training.py
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\config\config.yaml
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\artifacts\data_ingestion\kidney-ct-scan-image
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\artifacts\prepare_base_model
+    params:
+      - IMAGE_SIZE
+      - EPOCHS
+      - BATCH_SIZE
+      - AUGMENTATION
+    outs:
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\artifacts\training\model.h5
+
+
+  evaluation:
+    cmd: python C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\src\Chronic_Kidney_cnnClassifier\pipeline\stage_04_model_evaluation.py
+    deps:
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\src\Chronic_Kidney_cnnClassifier\pipeline\stage_04_model_evaluation.py
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\config\config.yaml
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\artifacts\data_ingestion\kidney-ct-scan-image
+      - C:\Users\ajitw\Github_Upload\DL-project-Chronic-kidney-Classification\artifacts\training\model.h5
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE 
+    metrics:
+    - scores.json:
+        cache: false
