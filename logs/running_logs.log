@@ -929,3 +929,164 @@ x==========x]
 [2023-12-06 00:08:00,167: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-12-06 00:47:30,264: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 00:47:30,265: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 00:47:43,726: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:47:43] "GET / HTTP/1.1" 200 -]
+[2023-12-06 00:56:29,227: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 00:56:29,229: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 00:56:32,022: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:56:32] "GET / HTTP/1.1" 200 -]
+[2023-12-06 00:56:32,217: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:56:32] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 00:59:08,966: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 00:59:08,967: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 00:59:12,451: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:59:12] "GET / HTTP/1.1" 200 -]
+[2023-12-06 00:59:12,492: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:59:12] "[33mGET /templates/logo.jpg HTTP/1.1[0m" 404 -]
+[2023-12-06 00:59:15,622: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:59:15] "GET / HTTP/1.1" 200 -]
+[2023-12-06 00:59:15,638: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:59:15] "[33mGET /templates/logo.jpg HTTP/1.1[0m" 404 -]
+[2023-12-06 00:59:16,360: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:59:16] "GET / HTTP/1.1" 200 -]
+[2023-12-06 00:59:16,373: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:59:16] "[33mGET /templates/logo.jpg HTTP/1.1[0m" 404 -]
+[2023-12-06 00:59:17,266: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:59:17] "GET / HTTP/1.1" 200 -]
+[2023-12-06 00:59:17,287: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 00:59:17] "[33mGET /templates/logo.jpg HTTP/1.1[0m" 404 -]
+[2023-12-06 01:01:16,418: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 01:01:16,419: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 01:01:18,645: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:01:18] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:01:18,804: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:01:18] "[33mGET /templates/logo.png;base64 HTTP/1.1[0m" 404 -]
+[2023-12-06 01:05:01,469: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 01:05:01,470: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 01:05:03,358: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:05:03] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:05:03,416: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:05:03] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:05:03,904: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:05:03] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:05:06,747: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:05:06] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:05:06,765: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:05:06] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:05:07,412: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:05:07] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:05:07,428: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:05:07] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:11:12,515: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 01:11:12,515: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 01:11:15,289: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:11:15] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:11:15,445: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:11:15] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:16:10,566: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 01:16:10,569: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 01:16:12,730: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:16:12] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:16:12,795: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:16:12] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:16:16,432: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:16:16] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:16:16,496: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:16:16] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:16:38,601: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:16:38] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:16:38,702: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:16:38] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:17:45,784: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\ajitw\github_upload\dl-project-chronic-kidney-classification\src\Chronic_Kidney_cnnClassifier\pipeline\prediction.py", line 15, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ajitw\anaconda3\envs\cnncls\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-12-06 01:17:45,797: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:17:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-06 01:23:09,426: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 01:23:09,427: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 01:23:14,803: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:23:14] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:23:15,026: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:23:15] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:23:25,514: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:23:25] "POST /predict HTTP/1.1" 200 -]
+[2023-12-06 01:23:37,093: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:23:37] "POST /predict HTTP/1.1" 200 -]
+[2023-12-06 01:23:49,191: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:23:49] "POST /predict HTTP/1.1" 200 -]
+[2023-12-06 01:24:02,851: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:24:02] "POST /predict HTTP/1.1" 200 -]
+[2023-12-06 01:24:04,734: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:24:04] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:24:04,759: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:24:04] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:24:12,815: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001E134BA49D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2023-12-06 01:24:12,819: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:24:12] "POST /predict HTTP/1.1" 200 -]
+[2023-12-06 01:24:18,684: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:24:18] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:24:18,706: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:24:18] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:25:14,866: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 01:25:14,867: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 01:25:17,265: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:25:17] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:25:17,411: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:25:17] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:25:25,954: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:25:25] "POST /predict HTTP/1.1" 200 -]
+[2023-12-06 01:26:14,988: INFO: stage_02_prepare_base_model: *******************]
+[2023-12-06 01:26:14,989: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-06 01:26:15,003: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-06 01:26:15,006: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-06 01:26:15,008: INFO: common: created directory at: artifacts]
+[2023-12-06 01:26:15,009: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-06 01:26:15,443: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-06 01:26:15,665: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-06 01:26:21,921: INFO: stage_03_model_training: *******************]
+[2023-12-06 01:26:21,922: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2023-12-06 01:26:21,924: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-06 01:26:21,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-06 01:26:21,927: INFO: common: created directory at: artifacts]
+[2023-12-06 01:26:21,927: INFO: common: created directory at: artifacts\training]
+[2023-12-06 01:27:53,178: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-06 01:28:01,223: INFO: stage_04_model_evaluation: *******************]
+[2023-12-06 01:28:01,224: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-06 01:28:01,226: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-06 01:28:01,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-06 01:28:01,232: INFO: common: created directory at: artifacts]
+[2023-12-06 01:28:15,443: INFO: common: json file saved at: scores.json]
+[2023-12-06 01:28:15,445: INFO: common: json file saved at: scores.json]
+[2023-12-06 01:28:15,445: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-06 01:28:16,838: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:28:16] "GET /train HTTP/1.1" 200 -]
+[2023-12-06 01:28:17,063: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:28:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2023-12-06 01:28:43,841: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:28:43] "GET /train HTTP/1.1" 200 -]
+[2023-12-06 01:28:59,009: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:28:59] "GET /train HTTP/1.1" 200 -]
+[2023-12-06 01:29:15,404: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:29:15] "POST /predict HTTP/1.1" 200 -]
+[2023-12-06 01:29:36,552: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.102:8080]
+[2023-12-06 01:29:36,553: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-06 01:29:41,412: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:29:41] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:29:41,442: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:29:41] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:29:51,948: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:29:51] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:29:51,964: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:29:51] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:30:00,781: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:30:00] "POST /predict HTTP/1.1" 200 -]
+[2023-12-06 01:31:23,640: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:31:23] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:31:23,655: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:31:23] "[33mGET /templates/logo.png HTTP/1.1[0m" 404 -]
+[2023-12-06 01:31:35,172: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:31:35] "POST /predict HTTP/1.1" 200 -]
