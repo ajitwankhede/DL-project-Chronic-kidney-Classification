@@ -111,7 +111,17 @@ export MLFLOW_TRACKING_USERNAME= <Add User name>
 export MLFLOW_TRACKING_PASSWORD= <Add Password>
 
 ```
+Run this to export as env variables: (For Windows User)
 
+```bash
+
+set MLFLOW_TRACKING_URI= <Add dagshub URL>
+
+set MLFLOW_TRACKING_USERNAME= <Add User name>
+
+set MLFLOW_TRACKING_PASSWORD= <Add Password>
+
+```
 
 ### DVC cmd
 
