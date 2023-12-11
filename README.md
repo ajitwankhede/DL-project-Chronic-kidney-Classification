@@ -57,8 +57,9 @@ Full volume Dataset: https://www.kaggle.com/datasets/nazmul0087/ct-kidney-datase
 
 Clone the repository
 
+
 ```bash
-<Add link to clone repo>
+[<Add link to clone repo>](https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification.git)
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -180,7 +181,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/project
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
