@@ -14,10 +14,13 @@ a.	DVC : Data version control
 10.	Prediction pipeline and User app creation
 11.	Docker
 12.	Final CI/CD Development
-Tack:
+    
+Task:
 Build deep learning base Image classification model which able to classify, CT scan image of kidney and identify kidney with tumour and Normal kidney.
+
 Dataset:
 I am using dataset of Kidney CT Scan image, which is identified and classified as kidney with tumour and Normal kidney with respective to image.
+
 For example:
 
 **Normal kidney**
