@@ -15,7 +15,7 @@ a.	DVC : Data version control
 11.	Docker
 12.	Final CI/CD Development
     
-Tack:
+Task:
 Build deep learning base Image classification model which able to classify, CT scan image of kidney and identify kidney with tumour and Normal kidney.
 
 Dataset:
