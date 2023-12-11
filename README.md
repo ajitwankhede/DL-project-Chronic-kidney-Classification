@@ -59,7 +59,7 @@ Clone the repository
 
 
 ```bash
-[<Add link to clone repo>](https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification.git)
+[(https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification.git)]
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
