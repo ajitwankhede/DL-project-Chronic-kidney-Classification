@@ -216,3 +216,8 @@ DVC
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+# Future Scope
+	- Enable gpu training
+	- Train model on full data with all class.
+	- Improve UI
