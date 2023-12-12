@@ -1,7 +1,7 @@
 tensorflow==2.12.0
 pandas 
 dvc
-mlflow==2.8.1
+# mlflow   / remove comment to install mlflow
 notebook
 numpy
 matplotlib

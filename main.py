@@ -49,9 +49,9 @@ STAGE_NAME = "Evaluation stage"
 try:
   
    # Connect Daghub and ML-Flow
-   os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/ajitwankhede/DL-project-Chronic-kidney-Classification.mlflow"
-   os.environ["MLFLOW_TRACKING_USERNAME"]="ajitwankhede"
-   os.environ["MLFLOW_TRACKING_PASSWORD"]="33e83bd2be316292f3af2c91ec4e72cf81f9be02"
+   os.environ["MLFLOW_TRACKING_URI"]="<DagsHub URL>"
+   os.environ["MLFLOW_TRACKING_USERNAME"]="<User name>"
+   os.environ["MLFLOW_TRACKING_PASSWORD"]="<DagsHub Password>"
    logger.info(f"*******************")
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
    model_evalution = EvaluationPipeline()
