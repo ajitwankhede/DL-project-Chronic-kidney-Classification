@@ -23,19 +23,23 @@ I am using dataset of Kidney CT Scan image, which is identified and classified a
 
 For example:
 
-**Normal kidney**
+### **Normal kidney**
 
  ![Normal- (709)](https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification/assets/85306409/df0eb302-b340-4373-8770-c0b56d4c9e55)
 
- **Tumour Kidney**
+ ### **Tumour Kidney**
  
 ![Tumor- (811)](https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification/assets/85306409/1b793724-0ae2-467d-9575-a73d56f14423)
 
-Download Database: 
-https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=sharing
+### **App UI**
 
-Or
-Full volume Dataset: https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone
+![Screenshot 2023-12-12 084604](https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification/assets/85306409/81bdb6f4-0946-48e2-886d-b91a7cd3cd0e)
+
+### Download Database: 
+
+Small Size : https://drive.google.com/file/d/1BIiJfOdei5xm9XMw_Gq9Bdq8uQWFtSPC/view?usp=sharing
+
+Full Size Dataset: https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone
 
 
 
@@ -220,6 +224,10 @@ DVC
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+### DVC Pipeline Flow
+
+![Screenshot 2023-12-06 002122](https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification/assets/85306409/edb2239c-8cc4-456b-b9eb-6851c7a40e34)
 
 # Future Scope
 	- Enable gpu training
